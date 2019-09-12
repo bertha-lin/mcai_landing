@@ -1,0 +1,190 @@
+html, body{
+    height: 100%;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif, "PingFangSC", "SimHei", "Microsoft JhengHei";
+    color: #4e4e4e;
+}
+.landing_wrapper{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-image: url('../img/sunrise.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.landing_wrapper .title{
+    padding: 120px 0 0;
+    color: #FFF;
+    margin-bottom: 90px;
+}
+
+.landing_wrapper .title h3{
+    font-size: 30px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+
+.landing_wrapper .title img{
+    width: 576px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.tab-box{
+    width: 829px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.tab-box nav .nav-tabs{
+    border: none;
+}
+
+.tab-box nav .nav-item{
+    width: 273px;
+    margin: 0 2.5px;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    background: #0093ff;
+    border-radius: 10px 10px 0 0;
+}
+
+.tab-box nav .nav-item .nav-link{
+    font-size: 32px;
+    padding: 11px 0;
+    border-radius: 10px 10px 0 0;
+    color: #FFF;
+    background-image: linear-gradient(359deg, #45b0ff, #45b0ff);
+}
+
+.tab-box nav .nav-item .active{
+    color: #FFF;
+    background: #0093ff;
+    border: none;
+}
+
+.tab-box nav .nav-link:hover{
+    border-color: transparent;
+}
+
+.tab-box nav .nav-item:first-child{margin-left: 0;}
+.tab-box nav .nav-item:last-child{margin-right: 0;}
+
+.main-container{
+    border: none;
+    background-image: linear-gradient(to top, #003abc, #0058ce 66%, #0083f4 89%, #0093ff);
+    text-align: center;
+    padding: 40px;
+    border-radius: 0 0 10px 10px;
+}
+
+.inner_content{
+    width: 748px;
+    height: 702px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    background: #FFF;
+    margin: 0 auto;
+    padding: 30px 40px 20px;
+}
+
+.inner_content img{
+    width: 216px;
+    height: auto;
+}
+
+.hipay_content img{
+    width: 170px;
+    margin: 10px 0 5px;
+}
+
+.software_content img{
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.inner_content h4{
+    margin: 20px 0 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #007fff;
+    text-align: left;
+}
+
+.inner_content .description{margin-bottom: 20px;}
+
+.inner_content .description p{
+    font-size: 15px;
+    color: #4e4e4e;
+    text-align: left;
+    line-height: 1.67;
+}
+
+.inner_content .info{margin-top: 35px;}
+
+.inner_content .info p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.inner_content .info p a{
+    color: #0093ff;
+    text-decoration: none;
+}
+
+.inner_content .info p a:hover{color: #0093ff;}
+
+
+.hipay_content{
+    overflow-y: scroll;
+}
+
+.hipay_content .pointer{
+    text-align: center;
+    padding: 15px;
+}
+
+.hipay_content .pointer h5{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hipay_content .pointer h4{
+    font-size: 25px;
+    font-weight: bold;
+    color: #cbab46;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.hipay_content .pointer h4 small{ font-size: 18px;}
+
+.hipay_content .pointer h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7600;
+    margin: 25px 0 10px;
+}
+
+.hipay_content .info{margin-top: 20px;}
+
+.software_content .tip{color: #e54600!important;}
+
+.software_content .info{
+    margin-top: 170px;
+}
+
+.landing_footer{
+    text-align: center;
+    font-size: 12px;
+    color: #FFF;
+    padding: 20px 0;
+}
