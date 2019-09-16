@@ -307,6 +307,7 @@ html, body{
     .hipay_content .pointer{
         text-align: center;
         padding: 1em 0;
+        word-break: break-word;
     }
     
     .hipay_content .pointer h5{
