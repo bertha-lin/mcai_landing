@@ -178,13 +178,169 @@ html, body{
 
 .software_content .tip{color: #e54600!important;}
 
-.software_content .info{
-    margin-top: 170px;
-}
+.software_content .info{margin-top: 170px;}
 
 .landing_footer{
     text-align: center;
     font-size: 12px;
     color: #FFF;
     padding: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+    html, body{
+        width: 100%;
+        height: 100%;
+        min-height: 100%;
+        font-family: Arial, Helvetica, sans-serif, "PingFangSC", "SimHei", "Microsoft JhengHei";
+        color: #4e4e4e;
+        font-size: 15px;
+    }
+    .landing_wrapper{
+        width: 100%;
+        min-height: 100%;
+        height: auto;
+    }
+    
+    .landing_wrapper .title{
+        padding: 50px 0 0;
+        color: #FFF;
+        margin-bottom: 2em;
+    }
+    
+    .landing_wrapper .title h3{
+        font-size: 1em;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    
+    .landing_wrapper .title img{
+        width: 80%;
+        height: auto;
+        margin-bottom: 1em;
+    }
+    
+    .tab-box{
+        width: 90%;
+        height: auto;
+    }
+    
+    .tab-box nav .nav-item{
+        width: 32.62%;
+        margin: 0 0.5%;
+        font-size: 1em;
+        border-radius: .5em .5em 0 0;
+    }
+    
+    .tab-box nav .nav-item .nav-link{
+        height: 100%;
+        font-size: 1em;
+        padding: 11px 0;
+        border-radius: .5em .5em 0 0;
+        color: #FFF;
+        background-image: linear-gradient(359deg, #45b0ff, #45b0ff);
+    }
+    
+    .tab-box nav .nav-item .active{
+        color: #FFF;
+        background: #0093ff;
+        border: none;
+    }
+    
+    .tab-box nav .nav-link:hover{
+        border-color: transparent;
+    }
+    
+    .tab-box nav .nav-item:first-child{margin-left: 0;}
+    .tab-box nav .nav-item:last-child{margin-right: 0;}
+    
+    .main-container{
+        border: none;
+        background-image: linear-gradient(to top, #003abc, #0058ce 66%, #0083f4 89%, #0093ff);
+        text-align: center;
+        padding: 1em;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .inner_content{
+        width: 100%;
+        height: 330px;
+        border-radius: .5em;
+        overflow-y: scroll;
+        padding: 1em 1.2em 0.8em;
+    }
+    
+    .inner_content img{
+        width: 10em;
+        height: auto;
+        margin-bottom: .5em;
+    }
+    
+    .hipay_content img{
+        width: 8em;
+        margin: .6em 0 .5em;
+    }
+    
+    .software_content img{
+        width: 12em;
+        margin: .5em 0 .8em;
+    }
+    
+    .inner_content h4{
+        margin: 1em 0 .5m;
+        font-size: 1.2em;
+    }
+    
+    .inner_content .description{margin-bottom: 1.5em;}
+    
+    .inner_content .description p{
+        font-size: .8em;
+    }
+    
+    .inner_content .info{margin-top: 1.5em;}
+    
+    .inner_content .info p{
+        font-size: 1em;
+        margin: .2em 0;
+    }
+    
+    .hipay_content .pointer{
+        text-align: center;
+        padding: 1em 0;
+    }
+    
+    .hipay_content .pointer h5{
+        font-size: .9em;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .hipay_content .pointer h4{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #cbab46;
+        margin: .8em 0;
+        text-align: center;
+    }
+    
+    .hipay_content .pointer h4 small{ font-size: .8em;}
+    
+    .hipay_content .pointer h3{
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #ff7600;
+        margin: .8em 0 .2em;
+    }
+    
+    .hipay_content .info{margin-top: 1.2em;}
+    
+    .software_content .info{
+        margin-top: 2em;
+    }
+    
+    .landing_footer{
+        font-size: .6em;
+        color: #FFF;
+        padding: 1em 0;
+    }
 }
